@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale Conosco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1 class="header-title">Interatividade Web com JS</h1>
+      <p class="header-subtitle">Projeto complementar</p>
+      <button id="dark-mode-toggle" class="mode-toggle">Modo Escuro</button>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="servicos.html" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+        <li class="nav-item"><a href="ajuda.html" class="nav-link">Ajuda</a></li>
+        <li class="nav-item"><a href="creditos.html" class="nav-link">Créditos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <h2 class="section-title">Fale Conosco</h2>
+    <p class="section-description">Esta página complementa o site principal e reutiliza o mesmo CSS/JS externos.</p>
+
+    <!-- Conteúdo específico da página -->
+    <section class="content-block">
+      <h3>Contato</h3>
+      <p>Use o formulário abaixo para nos enviar uma mensagem.</p>
+      <form id="contact-page-form" class="contact-form">
+        <div class="form-group">
+          <label for="contato-nome">Nome:</label>
+          <input type="text" id="contato-nome" class="form-input">
+        </div>
+        <div class="form-group">
+          <label for="contato-email">Email:</label>
+          <input type="email" id="contato-email" class="form-input">
+        </div>
+        <div class="form-group">
+          <label for="contato-mensagem">Mensagem:</label>
+          <textarea id="contato-mensagem" rows="4" class="form-input"></textarea>
+        </div>
+        <button type="submit" class="submit-button">Enviar</button>
+      </form>
+    </section>
+
+    <section class="interactive-block">
+      <h3>Localização</h3>
+      <p>Mapa estático (substitua por iframe do Google Maps se necessário).</p>
+      <div class="map-placeholder">Mapa - posição fictícia</div>
+    </section>
+
+    <section class="extra-block">
+      <h3>Horário de Atendimento</h3>
+      <p>Segunda a Sexta — 09:00 às 18:00</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Projeto Web. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
